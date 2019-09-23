@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\HardWare">
+      <UniqueIdentifier>{6b16b0f5-96d9-471e-a2b5-b4a963ddff7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HardWare">
+      <UniqueIdentifier>{f3fa8177-c012-46f4-8eb3-2dfa8e10617c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{f9c02ea5-644c-4267-b2b7-b1ed71707472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Work">
+      <UniqueIdentifier>{22998317-c277-4131-ba4f-8fcdc96f0262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Work">
+      <UniqueIdentifier>{15053e02-406b-4a0f-8f42-9178723212cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HardWare\Lib">
+      <UniqueIdentifier>{41930d8b-9425-4a51-9a50-2fa3cbb70eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{780ac688-1577-4eee-b0dc-05a4ad5d1ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{d4cf1138-0af5-450b-8c1a-7fcb0a10afb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mega.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="Huidu.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\TimerOne.cpp">
+      <Filter>Source Files\HardWare\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\HMC5883L.cpp">
+      <Filter>Source Files\HardWare\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Compass.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="Arm.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files\Work</Filter>
+    </ClCompile>
+    <ClCompile Include="Beeper.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="motor.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules.cpp">
+      <Filter>Source Files\Work</Filter>
+    </ClCompile>
+    <ClCompile Include="Led.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="Dianzhen.cpp">
+      <Filter>Source Files\HardWare</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.Mega.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Huidu.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\TimerOne.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\HMC5883L.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Compass.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\u8glib\U8glib.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\u8glib\u8g.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Arm.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Header Files\Work</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Beeper.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules.h">
+      <Filter>Header Files\Work</Filter>
+    </ClInclude>
+    <ClInclude Include="motor.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Led.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="Dianzhen.h">
+      <Filter>Header Files\HardWare</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
